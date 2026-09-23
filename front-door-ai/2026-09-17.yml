@@ -1,0 +1,24 @@
+# Front Door AI Index — junk-king — 2026-09-17
+# AI vocabulary counted on the provider's root page. Generated; do not edit.
+# `score` is null unless ownership is `own` — see front_door_ai.py.
+front_door_ai:
+  slug: junk-king
+  lexicon_version: '1.0'
+  probed_at: '2026-09-17'
+  host: www.junk-king.com
+  final_host: www.junk-king.com
+  ownership: own
+  owner: junk-king
+  shares_host_with: null
+  inherited_from: null
+  verdict: silent
+  score: 0
+  host_score: 0
+  density: 0.0
+  words: 3493
+  tiers:
+    agentic: 0
+    core: 0
+    model: 0
+  ambiguous: 0
+  top_terms: null
