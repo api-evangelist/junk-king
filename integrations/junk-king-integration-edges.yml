@@ -29,6 +29,77 @@ edges:
     detected: '2026-10-19'
   detected_by: sweep-carbon-environment.py
   first_seen: '2026-10-19'
+- partner_name: International Franchise Association member franchise brands
+  partner: null
+  partner_match: register
+  type: register
+  channel: standard-directory
+  relationship: standard-participant
+  direction: partner-built
+  evidence: https://www.franchise.org/franchise-opportunities/
+  category: franchise industry association franchisor member
+  contract_reference:
+    register: International Franchise Association member franchise brands
+    spec_file: null
+    standard: null
+    role: ifa-franchisor-member
+    registrations:
+    - registered_name: Junk King Franchise Systems
+      licences:
+      - ifa-franchisor-member
+      register_country: null
+      matched_name: junk king
+      matched_domain: junk-king.com
+      matched_by: domain
+      categories:
+      - business services
+      - commercial and residential services
+      - green and eco friendly
+      - recycling products and services
+      page: https://www.franchise.org/franchise-opportunities/junk-king-franchise-systems/
+      identity: wikidata Q6313812 'Junk King' P856 http://www.junk-king.com/
+    signal_note: 'participation only: listed in the IFA directory; no certification or API conformance'
+    detected_by: sweep-franchise-registries.py
+    detected: '2026-10-21'
+    identity_source: wikidata P856 (labelled provenance step; Kin 2026-10-15 decision 1)
+  detected_by: sweep-franchise-registries.py
+  first_seen: '2026-10-21'
+- partner_name: Minnesota Department of Commerce franchise registrations (CARDS)
+  partner: null
+  partner_match: register
+  type: register
+  channel: regulator-register
+  relationship: standard-participant
+  direction: partner-built
+  evidence: https://cards.web.commerce.state.mn.us/franchise-registrations
+  category: state franchise registration (FDD registered with the Minnesota Commissioner of Commerce)
+  contract_reference:
+    register: Minnesota Department of Commerce franchise registrations (CARDS)
+    spec_file: null
+    standard: null
+    role: registered-franchisor
+    registrations:
+    - registered_name: JUNK KING SPV LLC
+      licences:
+      - registered franchisor (FDD registration order)
+      register_country: US
+      matched_name: JUNK KING
+      matched_domain: junk-king.com
+      matched_by: domain
+      brands:
+      - JUNK KING
+      file_numbers:
+      - '10619'
+      latest_order: '2026-06-11'
+      latest_order_type: Order of Renewed Registration w Amendment
+      identity: wikidata Q6313812 'Junk King' P856 http://www.junk-king.com/
+    signal_note: 'participation only: a state franchise registration order; no API conformance is published by this
+      register'
+    detected_by: sweep-franchise-registries.py
+    detected: '2026-10-21'
+    identity_source: wikidata P856 (labelled provenance step; Kin 2026-10-15 decision 1)
+  detected_by: sweep-franchise-registries.py
+  first_seen: '2026-10-21'
 generated: '2026-10-19'
 method: searched
 source:
@@ -45,3 +116,13 @@ checked:
 - https://rcrapublic.epa.gov/rcra-public-export/rest/api/v1/public/export/current/CSV
 - https://www.cdr.fyi/sitemap.xml
 - https://www.icvcm.org/assessment-status/
+- https://apps.dfi.wi.gov/apps/FranchiseSearch/MainSearch.aspx
+- https://cards.web.commerce.state.mn.us/franchise-registrations
+- https://dfpi.ca.gov/regulated-industries/regulated-entities-list/
+- https://docqnet.dfpi.ca.gov/
+- https://pos.toasttab.com/franchise
+- https://squareup.com/us/en/franchises
+- https://www.franchise.org/franchise-opportunities/
+- https://www.franchise.org/suppliers/
+- https://www.franchise.org/wp-json/wp/v2/member
+- https://www.servicetitan.com/market/franchise-management-software
